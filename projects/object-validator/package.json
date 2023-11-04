@@ -10,9 +10,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "ng build object-validator",
+    "build:dev": "ng build object-validator",
+    "build:production": "npm run test:no-watch && npm run lint && ng build object-validator",
     "test": "ng test object-validator",
-    "test:coverage": "ng test object-validator --code-coverage"
+    "test:no-watch": "ng test object-validator --watch=false",
+    "test:coverage": "ng test object-validator --code-coverage",
+    "lint": "ng lint object-validator"
   },
   "license": "MIT",
   "typings": "index.d.ts",

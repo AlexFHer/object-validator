@@ -1,7 +1,7 @@
 {
   "name": "@ts-lab/object-validator",
   "author": "Alex Fandiño <afandino99@gmail.com>",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "dependencies": {
     "tslib": "^2.3.0"
   },
@@ -32,10 +32,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexFHer/ts-lab/tree/master/projects/object-validator"
+    "url": "https://github.com/AlexFHer/object-validator"
   },
   "bugs": {
-    "url": "https://github.com/AlexFHer/ts-lab/issues"
+    "url": "https://github.com/AlexFHer/object-validator/issues"
   }
 }
 

@@ -13,7 +13,7 @@
     "build:dev": "ng build object-validator",
     "build:production": "npm run test:no-watch && npm run lint && ng build object-validator",
     "test": "ng test object-validator",
-    "test:no-watch": "ng test object-validator --watch=false",
+    "test:no-watch": "ng test object-validator --watch=false --code-coverage",
     "test:coverage": "ng test object-validator --code-coverage",
     "lint": "ng lint object-validator"
   },

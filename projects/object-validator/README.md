@@ -1,5 +1,10 @@
 # Object validator for typescript
 
+[![npm package][npm-img]][npm-url]
+[![Downloads][downloads-img]][downloads-url]
+[![Issues][issues-img]][issues-url]
+[![Code Coverage][codecov-img]][codecov-url]
+
 A very lightweight library to create reusable configurations to validate objects in typescript.
 
 ## Installation
@@ -126,3 +131,12 @@ const validatorForMoreAge = validatorForLessAge.clone()
 ```
 
 The "validatorForMoreAge" configuration will have the same rules as "validatorForLessAge" plus the new rule for the "age" property.
+
+[downloads-img]: https://img.shields.io/npm/dt/@ts-lab/object-validator
+[downloads-url]: https://npmtrends.com/@ts-lab/object-validator
+[npm-url]: https://www.npmjs.com/package/@ts-lab/object-validator
+[npm-img]: https://img.shields.io/npm/v/@ts-lab/object-validator
+[issues-img]:https://img.shields.io/github/issues/AlexFHer/object-validator
+[issues-url]:https://github.com/AlexFHer/object-validator/issues
+[codecov-img]:https://codecov.io/gh/AlexFHer/object-validator/branch/master/graph/badge.svg
+[codecov-url]:https://codecov.io/gh/AlexFHer/object-validator
